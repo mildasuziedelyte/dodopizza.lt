@@ -1,0 +1,24 @@
+<div class="col-12 header-top">
+                
+                <div class="header-left">
+                    <img id="logo" src="./img/logo-small.png" alt="Dodo pizza logo">
+                    <img id="logo-letters" src="./img/logo-letters.png" alt="Dodo pizza logo">
+                    <div id="header-info"><h4>Nemokamas picų pristatymas Vilniuje</h4></div>
+                    <div id="header-phone">Skambinkite</div>
+                </div>
+                <div class="header-right">
+                    <a id="header-prisijungti" class="button" href="#">Prisijungti</a>
+                </div>
+            </div>
+
+            <div class="col-12 header-bottom">
+                <nav>
+                    <a href="#">Picos</a>
+                    <a href="#">Užkandžiai</a>
+                    <a href="#">Desertai</a>
+                    <a href="#">Gėrimai</a>
+                    <a href="#">Kitos prekės</a>
+                    <a href="#">Kontaktai</a>
+                </nav>
+                <a id="krepselis" class="button" href="#">Krepšelis</a>
+            </div>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodo pizza</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="icon" href="./img/logos/favicon-32x32.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <!-- header begin -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-top">
+                      <div class="header-left">
+                        <img id="logo" src="./img/logos/logo-small.png" alt="Dodo pizza logo">
+                        <img id="logo-letters" src="./img/logos/logo-letters.png" alt="Dodo pizza logo">
+                        <div id="header-slogan">
+                            <span>Nemokamas picų pristatymas <a style="color:rgb(255, 105, 0);" id="" href="#">Vilnius</a></span></span>
+                            <div id="header-reviews">38min &centerdot; 4.89 <img style="height:13px; margin: 1px 0;"
+                                src="./img/other/Plain_Yellow_Star.png" alt="star"></div>
+                        </div>
+                        <div id="header-phone-block">
+                            <span id="header-phone-text">Skambinkite</span>
+                            <a id="header-phone" href="#">8 635 11 555</a>
+                        </div>
+                   </div>
+                    <div class="header-right">
+                        <a id="header-prisijungti" class="button" href="#">Prisijungti</a>
+                    </div>
+                </div>  
+            </div>     
+        </div>              
+    </header>
+    <div class="container nav">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-bottom">
+                    <a href="#"><img id="logo-bottom" class="logo-bottom" src="./img/logos/logo-small.png" alt=""></a>
+                    <nav>
+                        <a href="#pizza">Picos</a>
+                        <a href="#">Užkandžiai</a>
+                        <a href="#">Desertai</a>
+                        <a href="#drinks">Gėrimai</a>
+                        <a href="#">Kitos prekės</a>
+                        <a href="#">Kontaktai</a>
+                    </nav>
+                    <div class="krepselis">
+                        <a id="krepselis" class="button" href="#">Krepšelis</a>       
+                        <!-- <div class="krepselis-hover">
+                            <div id="triangle-up"></div>
+                            <img src="./img/other/krepselis-hover.PNG" alt="illustration">
+                            <h2>Oj, tuščia!</h2>
+                            <p>Pas mus pristatymas visada nemokamas, tačiau minimali užsakymo suma turi būti 8,50 €</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+               
+    <!-- header end -->
+
+    <!-- section HERO begin -->
+    <div class="container">
+        <div class="row">
+            <div class="hero col-12">
+                <img src="./img/carousel/1.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- section HERO end-->
+
+    <!-- MENU begin -->
+    <div id="pizza" class="pizza-menu container"></div>
+    <div id="" class="snacks-menu container"></div>
+    <div id="" class="desserts-menu container"></div>
+    <div id="drinks" class="drinks-menu container"></div>
+    <!-- MENU end -->
+
+    <!-- FOOTER begin -->
+    <footer class="container">
+        <div class="footer-main row">
+            <div class="col-12">
+                <div class="footer-left">
+                    <h4>Darbas</h4>
+                    <a class="white-hover" href="#">Picerijoje</a>                    
+                </div>
+                <div class="footer-right">
+                    <div class="socials">
+                        <a href="https://play.google.com/store/apps/details?id=ru.dodopizza.app&hl=lt"><img class="download-app" src="./img/social/google-play.png" alt=""></a>
+                        <a  href="https://apps.apple.com/app/dodo-pizza-pizza-delivery/id894649641"><img class="download-app" src="./img/social/app-store.png" alt=""></a>
+                    </div>
+                    <div class="phone">
+                        <span class="phone-color">skambinkite</span>
+                        <a class="phone-number" href="tel:863511555">8 635 11 555</a>
+                        <a class="phone-color white-hover email" href="mailto:kokybe@dodopizza.lt">kokybe@dodopizza.lt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="footer-bottom col-12">              
+                <div class="footer-bottom-left">
+                    <div><p class="copyright">DODO PIZZA <span>&copy; 2020</span> <a class="white-hover" href="#">Teisinė informacija</a> <a class="white-hover" href="#">Alergenai ir informacija apie maistingumą</a></p></div>
+                </div>
+                <div class="footer-bottom-right right">
+                    <a class="footer-bottom-right right" href="https://www.instagram.com/dodopizza.lt/"><img class="link-instagram" src="./img/social/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER end -->
+
+    <!-- LIGHTBOX end -->
+    <div id="myModal" class="modal">
+        <div class="lightbox-container">
+            <div class="close">x</div>
+                <div id="lightbox" class="lightbox">
+                <!-- 
+                <div class="lightbox-left">
+                    <div class="big-circle"></div>
+                    <div class="medium-circle"></div>
+                    <img class="lightbox-image" src="./img/pizzas/christmas.png" alt="">
+                </div>
+                <form class="lightbox-right">
+                    <div class="lightbox-title">
+                        <h2>Christmas Pizza</h2>
+                    </div>
+                    <div class="lightbox-size">
+                        25 cm, tradicinis padas, 410g
+                    </div>
+                    <div class="lightbox-ingredients">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, obcaecati?
+                    </div>
+                    <div class="lightbox-chooseSize">
+                        <button class="lightbox-chooseTradicinis" type="submit">Maza Vidutine Didele</button>
+                    </div>
+                    <button class=" lightbox-chooseTradicinis" type="submit">Tradicinis</button>
+                    <div class="lightbox-addComponent">
+                        <h3>Pridėti į picą</h3>
+                        <div class="lightbox-addC">
+    
+                        </div>
+                        <div class="lightbox-addC">
+                            
+                        </div>
+                        <div class="lightbox-addC">
+                            
+                        </div>
+                    </div>
+                    <button class="button lightbox-addItem" type='submit'>Įdėti į krepšelį už 11,05 &euro;</button>
+                </form> -->
+            </div>
+        </div>
+    </div>
+        <!-- LIGHTBOX end -->
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

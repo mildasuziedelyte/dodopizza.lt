@@ -1,0 +1,386 @@
+/* HEADER START */
+
+    .header-top{
+        display: inline-block;
+        width: 100%;
+        padding: 25px 0 5px;
+    }
+
+    .header-top-hidden{
+        display: none;
+    }
+
+        .header-left{
+            float:left;
+        }
+
+            #logo{
+                display: inline-block;
+                height: 41px;
+                margin-top: -10px;
+            }
+
+            #logo-letters{
+                height: 21px;
+                margin: 0px 10px;
+            }
+
+            #header-slogan,
+            #header-phone-block{
+                display: inline-block;
+                margin: 0px 50px;
+                font-size: 18px;
+            }
+
+            #header-reviews{
+                font-size: 15px;
+                margin-top: 5px;
+            }
+
+            #header-phone-text{
+                font-size: 15px;
+                color: #999999;
+            }
+            
+            #header-phone{
+                display: block;
+                font-size: 18px;
+            }
+
+
+        .header-right{
+            float:right;
+        }
+
+            #header-prisijungti{
+                float:right;
+                background-color: rgb(243, 243, 247);
+                color: rgb(92, 99, 112);
+                font-size: 14px;
+                line-height: 1;
+            }
+
+            #header-prisijungti:hover{
+                color: black;
+            }
+
+    .nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+    }
+
+    .header-bottom{
+        display: inline-block;
+        width: 100%;
+        background-color: white;
+        /* position: relative; */
+        overflow: hidden;
+    }
+
+    .header-bottom-only{
+        border-bottom: 1px solid lightgrey;
+        width: 100%;
+    }
+
+    .logo-bottom{
+        width: 30px;
+        height:30px;
+        margin-left: -50px;
+        margin-top: 13px;
+        margin-right: 20px;
+        float: left;
+        transition: margin-left 0.5s;
+
+    }
+
+    .logo-bottom-visible{
+        margin-left: 0;
+    }
+
+        nav{
+            float: left;
+            margin: 18px 0px 0 0;
+        }
+        
+            nav a{
+                line-height: 24px;
+                margin-right: 20px;
+                font-size: 14px;
+            }
+
+            nav a:hover{
+                color:rgb(255, 105, 0);
+            }
+
+    /* .krepselis{ */
+        /* display: inline-block; */
+        /* float:right; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-color: lightgreen; */
+        /* position:relative; */
+    /* } */
+            
+        #krepselis{
+            width: 104px;
+            float:right;
+            padding: 8px 20px;
+            background-color: rgb(255, 105, 0);
+            color: white;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            margin: 8px 0;
+        }
+
+        #krepselis:hover{
+            background-color: rgb(226, 110, 28);
+        }
+
+        .krepselis-hover{
+            width: 340px;
+            padding: 64px 32px;
+            background-color: lightsalmon;
+            opacity: 1;
+            position: absolute;
+            right: 0;
+            top: 60px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 25px;
+            border-radius: 8px;
+            font-size: 15px;   
+            transition: all 0.5s ease;
+        }
+        
+        .krepselis-active{
+            opacity: 1;
+        }
+
+        .krepselis-hover img,
+        .krepselis-hover h2{
+            margin-bottom: 10px;
+        }
+
+        .krepselis-hover p{
+            line-height: 1.5;
+        }
+
+        #triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid white;
+            position: absolute;
+            top: -10px;
+            right: 40px;
+          }
+
+        .hero{
+            display: inline-block;
+            /* background-color: lightgrey; */
+            width:100%;
+            /* height: 370px; */
+            margin: 15px 0;
+        }
+            .hero img{
+                width:100%;
+                /* height: 370px; */
+            }
+
+
+/* MENU */
+
+.section-heading{
+    margin: 40px 0;
+
+}
+
+    .section-heading h1{
+        font-size: 24px;
+        font-weight: 500;        
+    }
+
+    .item{
+        /* background-color: lightcoral; */
+        position: relative;
+        height: 450px;
+        padding: 15px;
+    }
+
+        .item img{
+            width: 100%;
+        }
+
+        .product-title{
+            font: 20px;
+            margin: 8px 0;
+            font-weight: 500;
+
+        }
+
+        .product-description{
+            color: rgb(115, 121, 140);
+            font-weight: 400;
+
+        }
+
+    .item-footer{
+        display: inline-block;
+        width: 100%;
+        /* background-color: lightseagreen; */
+        padding: 0px 15px;
+        position:absolute;
+        bottom:0;
+        right:0;
+    }
+
+        .price{
+            float:left;
+            line-height: 42px;
+        }
+
+        .pasirinkti{
+            background-color: rgb(255, 240, 230);
+            color: rgb(209, 87, 0);
+            float:right;
+            font-size: 16px;
+            padding: 8px 20px;
+            line-height: 24px;
+        }
+
+        .pasirinkti:hover{
+            background-color: rgb(253, 194, 154);
+        }
+
+
+    footer{
+        background-color: rgb(69, 75, 84);
+        /* height: 300px; */
+        padding: 0px 0 20px 0;
+        margin-top: 30px;
+    }
+
+        .footer-main{
+            height: 210px;
+            padding-top: 30px;
+        }
+
+            .footer-left{
+                display: inline-block;
+                float: left;
+            }
+
+                .footer-left *{
+                    color: white;
+                    margin-bottom: 8px;
+                    letter-spacing: 0.1px;
+                    font-weight: 500;
+                    line-height: 1.4;
+                }
+
+                .footer-left a{
+                    color: rgba(255, 255, 255, 0.7);
+                    font-weight: 400;
+                }
+
+            .footer-right{
+                display: inline-block;
+                float: right;
+            }
+
+            .download-app{
+                height: 40px;  
+            }
+
+            .phone{
+                margin-top: 15px;
+            }
+
+            .phone *{
+                display: block;
+                text-align: right;
+                color: white;
+                line-height: 1.6;
+            }
+
+            .phone-color{
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .phone-number{
+                font-size: 26px;
+            }
+
+            .email{
+                font-weight: 400;
+            }
+
+            .white-hover:hover{
+                color: rgba(255, 255, 255);
+            }
+
+        .footer-bottom{
+            display: inline-block;
+            width:100%;
+            padding: 27px 0px 0 0;
+            margin-top: -10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 400;
+        }
+
+        .footer-bottom-left,
+        .footer-bottom-right{
+            display: inline-block;
+        }
+
+        .footer-bottom-right{
+            width: 32px;
+            height: 32px;
+            background-color: rgba(196, 196, 196, 0.2);
+            border-radius: 4px;
+            align-items: center;
+        }
+
+        .footer-bottom-right:hover{
+            background-color: rgba(196, 196, 196, 0.5);
+        }
+
+            .copyright *{
+                color: rgba(255, 255, 255, 0.7);
+                margin-left: 15px;
+                font-weight: 400;
+                line-height: 1.4;
+                font-size: 16px;
+                vertical-align: baseline;
+                line-height: 32px;
+
+            }
+
+            .link-instagram{
+                width:16px;
+                margin:8px 8px;
+            }    
+
+        .right{
+            float:right;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

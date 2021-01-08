@@ -1,0 +1,72 @@
+header{
+    display: inline-block;
+    width: 100%;
+}
+
+    .header-top{
+        height: 76px;
+        padding: 25px 0px 5px 0px; 
+        /* background-color: lightsalmon; */
+    }
+
+        .header-left{
+            display: inline-block;
+            /* background-color: lightblue; */
+            /* float: left; */
+        }
+
+            #logo-small{
+                display: inline-block;
+                height:41px;
+            }
+
+            #logo-letters{
+                display: inline-block;
+                height:21px;
+                margin: 10px 0px 0px 10px;
+            }
+
+            #header-pristatymas{
+                display: inline-block;
+                padding: 10px 0 0 40px;
+            }
+
+            #header-skambinkite{
+                display: inline-block;
+                padding: 10px 0 0 40px;
+            }
+
+        .header-right{
+            float: right;
+        }
+        
+            #prisijungti{
+                background-color: rgb(243, 243, 247);
+                color: rgb(92, 99, 112);
+            }
+
+    .header-bottom{
+        /* background-color: lightgreen; */
+        height: 60px;
+        line-height: 24px;
+    }
+
+        nav{
+            float: left;
+            padding: 23px 0;
+        }
+
+            nav a{
+                margin-right: 20px;
+                font-size: 14px;
+            }
+
+            #krepselis{
+                float: right;
+                padding: 8px 20px;
+                background-color: rgb(255, 105, 0);
+                color: white;
+                margin-top: calc((60px - 24px - 16px)/2);
+                font-size: 16px;
+                line-height: 24px;
+            }

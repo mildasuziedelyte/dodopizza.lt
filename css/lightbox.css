@@ -1,0 +1,169 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.55);
+  }
+
+  .modal-visible{
+    display: block;
+  }
+
+  .lightbox{
+    /* z-index:99999; */
+    width:1000px;
+    height:700px;
+    background-color: white;
+    border-radius: 20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .lightbox-container{
+    width:1000px;
+    height:700px;
+    border-radius: 20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .close{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    text-align: center;
+    line-height: 56px;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right:-60px;
+    color: grey;
+}
+
+
+.lightbox-left{
+    display: inline-block;
+    float:left;
+    width:600px;
+    height:100%;
+    position:relative;
+}
+
+.lightbox-image{
+    width:300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:-1;
+}
+
+.big-circle{
+    border: 1px dashed rgb(201, 201, 201);
+    width: 510px;
+    height: 510px;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+
+.medium-circle{
+    border: 1px dashed rgb(201, 201, 201);
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+
+.lightbox-right{
+    display: inline-block;
+    float:right;
+    width:400px;
+    padding: 25px;
+    position: relative;
+    height: 100%;
+}
+
+.lightbox-right *{
+    margin-bottom: 12px;
+}
+
+.lightbox-title h2{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.lightbox-size{
+    color: rgb(115, 121, 140);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.lightbox-ingredients{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.lightbox-chooseSize{
+    margin-bottom: 0;
+}
+
+.lightbox-chooseTradicinis{
+    width: 100%;
+    font-size: 14px;
+    line-height: 32px;
+    background-color: white;
+    border-radius: 9999px;
+    border: 2px solid rgb(201, 201, 201);
+}
+
+.lightbox-addComponent{
+    font-size: 18px;
+    padding: 12px 0px 24px 0px;
+}
+
+.lightbox-addC{
+    display: inline-block;
+    height: 166px;
+    width: calc(33.3333% - 8px);
+    box-shadow: rgba(6, 5, 50, 0.12) 0px 4px 20px;
+    margin: 10px 4px 4px 0px;
+    /* padding: 7px; */
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+
+.lightbox-addItem{
+    color: white;
+    background-color: rgb(255, 105, 0);
+    width: calc(100% - 2*25px);
+    margin: 25px;
+    line-height: 24px;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
